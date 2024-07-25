@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sayvai-sqlagent"
+version = "0.0.1"
+description = "Demo for SQL agent"
+authors = ["sanjaypranav <sanjaypriya195@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.11"
+langchain-community = "^0.2.10"
+langchain-openai = "^0.1.17"
+python-dotenv = "^1.0.1"
+fastapi = "^0.111.1"
+ 
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
